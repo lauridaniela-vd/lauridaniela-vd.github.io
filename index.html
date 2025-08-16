@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio — Estudiante de Diseño Visual</title>
+    <meta name="description" content="Portafolio de estudiante de Diseño Visual." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header" aria-label="Encabezado principal">
+        <div class="container header-inner">
+            <a class="brand accent" href="#home" aria-label="Ir a inicio">Laura Gallego</a>
+            <nav class="nav" aria-label="Navegación principal">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre mí</a>
+                <a href="#portfolio">Portafolio</a>
+                <a href="#process">Proceso</a>
+                <a class="btn btn--ghost" href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero / Home -->
+        <section id="home" class="section hero">
+            <div class="container hero-grid">
+                <div class="hero-media" aria-hidden="true">
+                    <!-- Reemplaza por tu foto (1:1 recomendado) -->
+                    <div class="avatar" role="img" aria-label="Avatar / foto del autor">
+                        <img src="/public/img/ProfilePic.png" style="border-radius: 50%;"
+                            alt="Foto de Laura Gallego, diseñadora visual" />
+                    </div>
+                </div>
+                <div class="hero-copy">
+                    <h1>Hola, soy <span class="accent">Laura </span></h1>
+                    <p class="lead">
+                        Estudiante de Diseño Visual. Me interesan tipografía, identidad visual y UI.
+                        Este es mi portafolio con proyectos académicos.
+                    </p>
+                    <div class="hero-cta">
+                        <a class="btn" href="#portfolio">Ver mi trabajo</a>
+                        <a class="btn btn--ghost" href="mailto:lauradaniela.87@gmail.com">Escríbeme</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section id="about" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Sobre mí</h2>
+                </header>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            Soy estudiante de <strong>Diseño Visual</strong>. Disfruto la
+                            composición, el color y la tipografía. Busco prácticas para aportar en
+                            <em>branding</em>, Infografía y UI.
+                        </p>
+                        <p>
+                            Me inspiran los sistemas visuales simples, bien pensados y consistentes.
+                            En mi proceso incluyo moodboards, bocetos y pruebas de color antes de
+                            pasar a piezas finales y mockups.
+                        </p>
+                        <ul class="tags" aria-label="Habilidades">
+                            <li>Tipografía</li>
+                            <li>Color</li>
+                            <li>Identidad visual</li>
+                            <li>Diseño Infografía</li>
+                            <li>UI básica</li>
+                            <li>Mockups</li>
+                        </ul>
+                    </div>
+                    <aside class="about-aside" aria-label="Datos rápidos">
+                        <div class="card">
+                            <h3>Datos rápidos</h3>
+                            <ul class="list">
+                                <li>Ubicación: Colombia</li>
+                                <li>Disponibilidad: prácticas</li>
+                                <li>Herramientas: Figma, Illustrator, Photoshop, Adobe Cloud</li>
+                            </ul>
+
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portafolio -->
+        <section id="portfolio" class="section section--alt">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Portafolio de proyectos académicos</h2>
+                </header>
+
+                <!-- Grid de proyectos -->
+                <div class="grid">
+                    <!-- Tarjeta 1 -->
+                    <article class="card project-card">
+                        <a class="project-link" href="#project-1" aria-label="Abrir proyecto 1">
+                            <figure class="thumb">
+                                <!-- Reemplaza src con tu imagen -->
+                                <img src="/public/img/Logo.png" alt="Identidad de marca" />
+                            </figure>
+                            <div class="project-meta">
+                                <h3>Identidad de marca</h3>
+                                <span class="badge">Branding • Académico</span>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Tarjeta 2 -->
+                    <article class="card project-card">
+                        <a class="project-link" href="#project-2" aria-label="Abrir proyecto 2">
+                            <figure class="thumb">
+                                <img src="/public/img/Infografia.png" alt="Infografía" />
+                            </figure>
+                            <div class="project-meta">
+                                <h3>Infografía</h3>
+                                <span class="badge">Infografía • Académico</span>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Tarjeta 3 -->
+                    <article class="card project-card">
+                        <a class="project-link" href="#project-3" aria-label="Abrir proyecto 3">
+                            <figure class="thumb">
+                                <img src="/public/img/lechosito.jpeg" alt="UI website" />
+                            </figure>
+                            <div class="project-meta">
+                                <h3>UI — Página web</h3>
+                                <span class="badge">UI • Académico</span>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Tarjeta 4 -->
+                    <article class="card project-card">
+                        <a class="project-link" href="#project-4" aria-label="Abrir proyecto 4">
+                            <figure class="thumb">
+                                <img src="/public/img/Cartel.png" alt="Cartel tipográfico" />
+                            </figure>
+                            <div class="project-meta">
+                                <h3>Cartel tipográfico</h3>
+                                <span class="badge">Tipografía • Académico</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proceso -->
+        <section id="process" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Proceso creativo</h2>
+                </header>
+
+                <div class="process-steps">
+                    <div class="step card">
+                        <h3>1. Investigación</h3>
+                        <p>Moodboard, referentes, paletas y tono.</p>
+                    </div>
+                    <div class="step card">
+                        <h3>2. Bocetos</h3>
+                        <p>Exploración rápida de formas, composición y jerarquía.</p>
+                    </div>
+                    <div class="step card">
+                        <h3>3. Refinamiento</h3>
+                        <p>Iteraciones guiadas por feedback y pruebas de color/tipo.</p>
+                    </div>
+                    <div class="step card">
+                        <h3>4. Presentación</h3>
+                        <p>Mockups y especificaciones para producción.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="section section--alt">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Contacto</h2>
+                </header>
+
+                <div class="contact-grid">
+                    <div class="card">
+                        <ul class="list">
+                            <li>
+                                Email:
+                                <a href="mailto:lauradaniela.87@gmail.com"
+                                    style="text-decoration: underline;">lauradaniela.87@gmail.com</a>
+                            </li>
+                            <li>LinkedIn: <a
+                                    href="https://www.linkedin.com/in/laura-daniela-gallego-marulanda-b3801233a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgQO8WoFDSkqHVfRRIYmroA%3D%3D"
+                                    rel="noopener" style="text-decoration: underline;">Laura Gallego</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" aria-label="Pie de página">
+        <div class="container footer-inner">
+            <p>© <span id="year">2025</span> Laura Gallego — Portafolio</p>
+            <a href="#home" class="to-top" aria-label="Volver arriba">↑ Arriba</a>
+        </div>
+    </footer>
+
+    <section id="project-1" class="project-modal" aria-labelledby="project-1-title" aria-modal="true" role="dialog">
+        <div class="modal-inner">
+            <div class="modal-title">
+                <h3 id="project-1-title">Identidad</h3>
+                <a class="modal-close" href="#portfolio" aria-label="Cerrar">×</a>
+            </div>
+            <div class="modal-media">
+                <img src="/public/img/Logo.png" alt="Identidad de marca" />
+            </div>
+            <div class="modal-body">
+                <h4>Reto</h4>
+                <p>Crear una identidad organica con paleta cálida.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="project-2" class="project-modal" aria-labelledby="project-2-title" aria-modal="true" role="dialog">
+        <div class="modal-inner">
+            <div class="modal-title">
+                <h3 id="project-2-title">Infografia</h3>
+                <a class="modal-close" href="#portfolio" aria-label="Cerrar">×</a>
+            </div>
+            <div class="modal-media">
+                <img src="/public/img/Infografia.png" alt="Doble página con grilla y titulares" />
+            </div>
+            <div class="modal-body">
+                <h4>Reto</h4>
+                <p>Crear una infografía clara y precisa para guiar usuarios.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyecto 3 -->
+    <section id="project-3" class="project-modal" aria-labelledby="project-3-title" aria-modal="true" role="dialog">
+        <div class="modal-inner">
+            <div class="modal-title">
+                <h3 id="project-3-title">UI Página web </h3>
+                <a class="modal-close" href="#portfolio" aria-label="Cerrar">×</a>
+            </div>
+            <div class="modal-media">
+                <img src="/public/img/lechosito.jpeg" alt="Pantalla principal." />
+            </div>
+            <div class="modal-body">
+                <h4>Reto</h4>
+                <p>Diseñar una UI simple para producto comestible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyecto 4 -->
+    <section id="project-4" class="project-modal" aria-labelledby="project-4-title" aria-modal="true" role="dialog">
+        <div class="modal-inner">
+            <div class="modal-title">
+                <h3 id="project-4-title">Cartel tipográfico</h3>
+                <a class="modal-close" href="#portfolio" aria-label="Cerrar">×</a>
+            </div>
+            <div class="modal-media">
+                <img src="/public/img/Cartel.png" alt="Composición tipográfica del cartel" />
+            </div>
+            <div class="modal-body">
+                <h4>Reto</h4>
+                <p>Comunicar un evento cultural con tipografía como protagonista.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
